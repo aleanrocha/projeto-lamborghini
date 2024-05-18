@@ -15,7 +15,6 @@ body {
   background: #000 radial-gradient(#7f3d9e, #6900d9) no-repeat;
   background-size: cover;
   color: #fafafa;
-  overflow-x: hidden;
   --calculation: 1;
 }
 
@@ -57,6 +56,7 @@ header nav a {
 
 main {
   padding: 3rem 0;
+  overflow: hidden;
 }
 
 /* lista de carros */
