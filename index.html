@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./images/lambo-gallado.png" type="image/png">
+  <script src="./js/scripts.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <title>LL Lamborghini</title>
+</head>
+<body>
+  <header>
+    <p class="logo">LL Lamborghini</p>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Carros</a>
+      <a href="#">Fale conosco</a>
+    </nav>
+  </header>
+  <main>
+    <section class="cars-list">
+      <div class="car active">
+        <div class="car-image">
+          <img src="./images/lambo-gallado.png" alt="Lamborghini Gallado">
+        </div>
+        <div class="car-info">
+          <p class="car-text">único dono</p>
+          <h2 class="car-name">Gallado</h2>
+          <p class="car-description">O Gallardo foi um modelo esportivo da Lamborghini, tendo sido lançado em 2004. É o primeiro modelo da marca equipado com motor V10.</p>
+          <button class="btn" type="button">Saiba mais</button>
+        </div>
+      </div>
+      <div class="car">
+        <div class="car-image">
+          <img src="./images/lambo-urus.png" alt="Lamborghini Urus">
+        </div>
+        <div class="car-info">
+          <p class="car-text">único dono</p>
+          <h2 class="car-name">Urus</h2>
+          <p class="car-description">O Lamborghini Urus é um SUV produzido pela marca italiana Lamborghini, apresentado no Auto China em 23 de abril de 2012 e lançado em 2018.</p>
+          <button class="btn" type="button">Saiba mais</button>
+        </div>
+      </div>
+      <div class="car">
+        <div class="car-image">
+          <img src="./images/lambo-huracan.png" alt="Lamborghini Húracan">
+        </div>
+        <div class="car-info">
+          <p class="car-text">único dono</p>
+          <h2 class="car-name">Húracan</h2>
+          <p class="car-description">O Lamborghini Huracán é um automóvel desportivo construído pela empresa italiana Lamborghini, substituindo o lendário Gallardo.</p>
+          <button class="btn" type="button">Saiba mais</button>
+        </div>
+      </div>
+      <div class="arrows">
+        <ion-icon id="prev" name="arrow-back-circle-outline"></ion-icon>
+        <span class="line"></span>
+        <ion-icon id="next" name="arrow-forward-circle-outline"></ion-icon>
+      </div>
+      <div class="indicators">
+        <span class="number">01</span>
+          <div class="bullets">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
